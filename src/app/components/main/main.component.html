@@ -1,0 +1,4 @@
+<main class="main">
+  <app-search-input (searchTextChange)="searchText = $event"></app-search-input>
+  <app-gallery [searchText]="searchText"></app-gallery>
+</main>

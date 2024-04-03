@@ -1,0 +1,12 @@
+<picture class="picture">
+  <span class="picture__id"># {{ picture.id }}</span>
+  <img
+    class="picture__photo"
+    [src]="picture.photo"
+    (error)="handleImageError($event)"
+    [alt]="'Imagen ' + picture.id"
+  />
+  <p class="picture__text" [ngClass]="{ hidden__text: !showText }">
+    {{ picture.text }}
+  </p>
+</picture>

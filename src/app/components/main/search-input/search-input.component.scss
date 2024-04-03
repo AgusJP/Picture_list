@@ -1,0 +1,48 @@
+.container {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+
+  .container__searchInput {
+    width: 100%;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    color: #4e5155;
+    border: 1px solid #c1c5ca;
+
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      color: #4e5155;
+    }
+  }
+
+  .container__searchIcon {
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+  }
+
+  .container__exampleGuide {
+    display: block;
+    color: #4e5155;
+    text-align: start;
+    margin-left: 3px;
+    margin-top: 4px;
+    font-family: "Onest";
+    font-weight: 100;
+    margin-bottom: 3em;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .container {
+    width: 100%;
+  }
+}

@@ -1,0 +1,22 @@
+<section
+  class="gallery"
+  infiniteScroll
+  [infiniteScrollDistance]="2"
+  [infiniteScrollThrottle]="50"
+  (scrolled)="onScroll()"
+>
+  <app-picture
+    *ngFor="
+      let picture of currentData | filterPictures: searchText;
+      trackBy: trackByIdPicture
+    "
+    [picture]="picture"
+  ></app-picture>
+</section>
+
+<p
+  class="noFilterPictures"
+  *ngIf="(currentData | filterPictures: searchText) === null"
+>
+  No se ha podido encontrar ningún resultado 🙁
+</p>
