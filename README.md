@@ -1,8 +1,6 @@
 # Lista de Imágenes
 
-<video autoplay muted loop>
-  <source src="./src/assets/demo.mp4" type="video/mp4">
-</video>
+https://github.com/AgusJP/Picture_list/assets/61051595/aa02c945-ab42-4f8c-8872-f41137c04dd0
 
 ## Descripción
 
@@ -75,9 +73,7 @@ Ejecuta `npm run test` para ejecutar las pruebas unitarias a través de [Karma](
 
 ## Ejecución de Pruebas de E2E
 
-<video autoplay muted loop>
-  <source src="./src/assets/e2e.mp4" type="video/mp4">
-</video>
+https://github.com/AgusJP/Picture_list/assets/61051595/aa3fffac-9ae2-4e73-b20c-de6273a691f8
 
 Ejecuta `npm run e2e` para ejecutar las pruebas e2e a través de [Cypress](https://www.cypress.io/).
 
